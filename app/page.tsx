@@ -1,6 +1,7 @@
 import { auth, signIn, signOut } from "@/auth";
 import SlideGeneratorClient from "../components/SlideGeneratorClient";
 
+export const runtime = 'edge';
 export default async function Home() {
   const session = await auth();
 
