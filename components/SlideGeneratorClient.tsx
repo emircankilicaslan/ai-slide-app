@@ -42,14 +42,14 @@ export default function SlideGeneratorClient() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-[#f8f9fa] px-6">
       <div className="bg-white p-12 rounded-3xl shadow-xl w-full max-w-lg border border-gray-100 text-center">
-        
+
         <h1 className="text-3xl font-black text-gray-900 mb-3 tracking-tight">
           AI Slayt Oluşturucu
         </h1>
         <p className="text-gray-500 mb-10 text-base font-medium">
           Konuyu yazın, yapay zeka saniyeler içinde taslağı çıkarsın.
         </p>
-        
+
         <input
           type="text"
           placeholder="Örn: Yapay Zekanın Geleceği, Futbol Tarihi..."
@@ -58,7 +58,7 @@ export default function SlideGeneratorClient() {
           onChange={(e) => setPrompt(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && handleGenerate()}
         />
-        
+
         <button
           onClick={handleGenerate}
           disabled={loading || !prompt}

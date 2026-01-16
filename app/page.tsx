@@ -2,10 +2,10 @@ import { auth, signIn, signOut } from "@/auth";
 import SlideGeneratorClient from "../components/SlideGeneratorClient";
 
 export const runtime = 'edge';
+
 export default async function Home() {
   const session = await auth();
 
- 
   if (!session) {
     return (
       <div className="min-h-screen flex items-center justify-center font-sans">
@@ -23,6 +23,5 @@ export default async function Home() {
     );
   }
 
-  
   return <SlideGeneratorClient />;
 }
