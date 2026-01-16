@@ -6,12 +6,6 @@ Yapay zeka destekli, modern ve interaktif bir sunum oluşturma aracı. Kullanıc
 
 ---
 
-### 📸 Proje Önizlemesi
-
-
-![Proje Genel Bakış](BURAYA_RESIM_SURUKLE)
-
----
 
 ## 🚀 Özellikler
 
