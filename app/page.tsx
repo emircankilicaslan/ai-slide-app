@@ -1,28 +1,17 @@
-import { auth, signIn, signOut } from "@/auth";
-import SlideGeneratorClient from "../components/SlideGeneratorClient";
-
 export const runtime = 'edge';
 
-export default async function Home() {
-  const session = await auth();
-
-  if (!session) {
-    return (
-      <div className="flex min-h-screen flex-col items-center justify-center bg-white text-black">
-        <h1 className="mb-4 text-2xl font-bold">Giriş Yapın</h1>
-        <form
-          action={async () => {
-            "use server";
-            await signIn("google");
-          }}
-        >
-          <button className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">
-            Google ile Giriş Yap
-          </button>
-        </form>
+export default function Home() {
+  return (
+    <div className="flex min-h-screen flex-col items-center justify-center bg-blue-600 text-white">
+      <h1 className="text-6xl font-bold mb-4">
+        BAŞARDIK! 🚀
+      </h1>
+      <p className="text-2xl">
+        Siyah üçgen gitti! Artık kontrol bizde.
+      </p>
+      <div className="mt-8 p-6 bg-white text-blue-800 rounded-xl font-bold text-xl shadow-lg">
+        Versiyon: Mavi Ekran Testi
       </div>
-    );
-  }
-
-  return <SlideGeneratorClient />;
+    </div>
+  );
 }
