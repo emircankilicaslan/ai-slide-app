@@ -8,7 +8,7 @@ Yapay zeka destekli, modern ve interaktif bir sunum oluşturma aracı. Kullanıc
 
 ### 📸 Proje Önizlemesi
 
-**(Aşağıdaki alana en güzel genel ekran görüntüsünü sürükleyip bırak)**
+
 ![Proje Genel Bakış](BURAYA_RESIM_SURUKLE)
 
 ---
@@ -26,13 +26,13 @@ Yapay zeka destekli, modern ve interaktif bir sunum oluşturma aracı. Kullanıc
 
 ### 1. Giriş ve Prompt Ekranı
 Kullanıcıların konu başlığını girdiği minimalist arayüz.
-**(Aşağıya giriş ekranı resmini sürükle)**
+
 <img width="1417" height="764" alt="image" src="https://github.com/user-attachments/assets/406e361f-e613-447f-81fd-a0f9137353a8" />
 
 
 ### 2. Slayt Detay ve Düzenleme
 Sol tarafta slayt akışı, sağ tarafta detaylı içerik ve AI tarafından üretilen dinamik görsel.
-**(Aşağıya slayt/messi resmini sürükle)**
+
 <img width="1903" height="906" alt="image" src="https://github.com/user-attachments/assets/6e4a4faf-4985-4a56-81df-fd3bf366d955" />
 
 
