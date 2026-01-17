@@ -9,6 +9,6 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
     }),
   ],
   pages: {
-      signIn: "/", // Giriş yapılmamışsa ana sayfaya at
+      signIn: "/", 
   }
 })
