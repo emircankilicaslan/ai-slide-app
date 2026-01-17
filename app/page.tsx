@@ -1,9 +1,15 @@
 export const runtime = 'edge';
 
-// signIn fonksiyonunu auth.ts dosyasından içe aktarıyoruz
-import { signIn } from "@/auth"; 
+import { signIn, auth } from "@/auth"; 
+import { redirect } from "next/navigation";
 
-export default function Home() {
+export default async function Home() {
+  const session = await auth();
+
+  if (session) {
+    redirect("/dashboard");
+  }
+
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-slate-50 p-4">
       <div className="w-full max-w-md space-y-8 rounded-2xl bg-white p-8 shadow-xl">
@@ -13,13 +19,10 @@ export default function Home() {
         </div>
         
         <div className="mt-8 space-y-4">
-          {/* KRİTİK DEĞİŞİKLİK: 
-            Butonu bir form içine aldık ve Google ile giriş yapmasını söyledik.
-          */}
           <form
             action={async () => {
               "use server";
-              await signIn("google");
+              await signIn("google", { redirectTo: "/dashboard" });
             }}
           >
             <button 
