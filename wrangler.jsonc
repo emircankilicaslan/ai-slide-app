@@ -1,6 +1,5 @@
 {
   "name": "ai-slide-app",
   "compatibility_date": "2026-01-16",
-  "pages_build_output_dir": ".next"
+  "pages_build_output_dir": ".vercel/output/static"
 }
-
