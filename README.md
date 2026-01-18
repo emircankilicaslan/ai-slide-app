@@ -20,6 +20,7 @@ Yapay zeka destekli, modern ve interaktif bir sunum oluşturma aracı. Kullanıc
 
 ### 1. Giriş ve Prompt Ekranı
 Kullanıcıların konu başlığını girdiği minimalist arayüz.
+<img width="1139" height="628" alt="image" src="https://github.com/user-attachments/assets/a17c48a0-10d8-4b72-a147-084607dc6172" />
 
 <img width="1417" height="764" alt="image" src="https://github.com/user-attachments/assets/406e361f-e613-447f-81fd-a0f9137353a8" />
 
