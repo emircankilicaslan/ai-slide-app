@@ -1,6 +1,5 @@
 # 🤖 AI Slide Generator (Next.js 14)
 
-**Canlı Demo:** [https://ai-slide-app.pages.dev](https://ai-slide-app.pages.dev)
 
 Yapay zeka destekli, modern ve interaktif bir sunum oluşturma aracı. Kullanıcıdan alınan bir konu başlığına göre saniyeler içinde başlıklar, içerikler ve yapay zeka tarafından üretilen görsellerle donatılmış 4 sayfalık bir sunum taslağı oluşturur.
 
